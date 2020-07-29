@@ -1,7 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: black;
-  background-color: lightgrey;
+  background-image: url(https://picserio.com/data/out/320/high-resolution-american-flag-wallpaper_5290053.jpg)
   text-align: center;
 }
 
@@ -28,8 +28,8 @@ body {
 }
 
 #img-main {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: auto;
   border: 2px solid gold;
   box-shadow: 10px;
 }
@@ -101,4 +101,9 @@ button:active {
   .container {
     width: 300px;
   }
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
